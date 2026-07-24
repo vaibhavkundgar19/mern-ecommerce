@@ -11,7 +11,7 @@ pipeline {
 
     stages {
 
-        // STAGE 1: CLEANUP & CHECKOUT
+        // STAGE 1: CLEANUP & CHECKOUT .
         stage('Cleanup & Checkout') {
             steps {
                 cleanWs()
