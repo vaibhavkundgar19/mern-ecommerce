@@ -2,7 +2,7 @@ pipeline {
     agent any;
 
     environment {
-        DOCKERHUB_USERNAME  = "biswajit7815"
+        DOCKERHUB_USERNAME  = "kundgar19"
         BACKEND_IMAGE       = "mern-backend"
         FRONTEND_IMAGE      = "mern-frontend"
         IMAGE_TAG           = "${BUILD_NUMBER}"
