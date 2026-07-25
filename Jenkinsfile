@@ -5,7 +5,6 @@ pipeline {
         DOCKERHUB_USERNAME = "kundgar19" 
         BACKEND_IMAGE      = "mern-backend"
         FRONTEND_IMAGE     = "mern-frontend"
-        IMAGE_TAG          = "${BUILD_NUMBER}"
         SCANNER_HOME       = tool 'sonar-scanner'
     }
 
