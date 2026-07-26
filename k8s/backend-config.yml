@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+data:
+  PRODUCTION: "false"
+  ORIGIN: "http://REPLACE_WITH_ALB_URL"
+  LOGIN_TOKEN_EXPIRATION: "30d"
+  OTP_EXPIRATION_TIME: "120000"
+  PASSWORD_RESET_TOKEN_EXPIRATION: "2m"
+  COOKIE_EXPIRATION_DAYS: "30"
