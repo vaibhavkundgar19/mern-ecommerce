@@ -7,7 +7,7 @@ pipeline {
         FRONTEND_IMAGE     = "mern-frontend"
         SCANNER_HOME       = tool 'sonar-scanner'
     }
-    # test
+    
     stages {
 
         stage('Set Branch Config') {
